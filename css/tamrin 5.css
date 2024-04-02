@@ -1,0 +1,157 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family:dirooz ;
+    src: url(../fonts/Dirooz.woff);
+}
+@font-face {
+    font-family:nazanin ;
+    src: url(../fonts/B\ Nazanin_YasDL.com.ttf);
+}
+body{
+    height: 100vh;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:35px ;
+    margin-bottom: 120px;
+    
+}
+.righr-side{
+    
+    /* display: flex; */
+    /* direction: rtl; */
+}
+.logo {
+    border-radius: 50%;
+    width: 80px;
+    /* display: flex; */
+    /* margin-top: 35px; */
+    margin-right: 80px;
+    
+}
+.left-side{
+    display: flex;
+    
+}
+.form{
+    list-style-type: none;
+    display: flex;
+    margin-left: 80px;
+    /* margin-top: 35px ; */
+}
+.form .list{
+   display: flex;
+   padding: 25px;
+   font-family:dirooz ;
+   font-size: 13px;
+  
+}
+.list-link:hover{
+    color: rgb(0, 175, 0);
+    
+}
+/*heder finished*/
+.center{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.right-body{
+    /* margin-top: 120px; */
+    margin-right: 80px;
+}
+.right-body .pant{
+    
+    font-family: nazanin;
+    font-size: 60px;
+    text-align: justify;
+    width: 480px;
+    display: inline-block;
+}
+.right-body .pant span{
+    color: green;
+    
+}
+.right-body .matn{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    text-align: justify;
+    width: 600px;
+    font-family: nazanin;
+    
+}
+.bottom{
+    
+    text-align: center;
+    border: 1 solid green ;
+    color: white;
+    border-radius: 30px;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    font-family: nazanin;
+    line-height: 47px; /* nesbat be height tanzim mikonim*/
+    
+}
+.left-body{
+    /* text-align: left; */
+}
+.circle{
+    border: 1px solid green;
+    background-color: green;
+    border-bottom-right-radius: 0%;
+    width:79hv ;
+    height: 79vh;
+    border-top-right-radius: 105%;
+    border-top-left-radius: 0%;
+    /* margin-top: 40px; */
+    display: flex;
+}
+.drink{
+    display: flex;
+    margin-right: 80px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    
+}
+.facebook{
+    
+    width: 34px;
+    height: 34px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+}
+.circle ul{
+    list-style-type: none;
+    direction: ltr;
+    margin-top: 200px;
+    margin:auto;
+    margin-right: 110px;
+    
+}
+.circle ul li{
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.list-link{
+    font-family:dirooz ;
+   font-size: 13px;
+}
+.bottom a{
+    color: white;
+}
